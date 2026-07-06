@@ -33,7 +33,7 @@ fails with a plain `FileSystemException` instead of crashing; after copying
 `liblmdb.so` into `bundle/lib/` (what `flutter_lmdb2`'s Linux support, below, does
 automatically), the app opened a real LMDB store successfully.
 
-This is a genuine bug in `dart_lmdb2` itself, reported to
+This is a genuine bug in `dart_lmdb2` itself, worth reporting to
 [grammatek/dart_lmdb2](https://github.com/grammatek/dart_lmdb2) — this entry should be
 retired once fixed there.
 
@@ -81,6 +81,6 @@ prebuilt `objectbox-c` archive), LMDB is compiled from its own real source here 
 avoiding a repeat of the licensing complication a prebuilt, no-source binary can create
 for GPL-licensed apps.
 
-Like `dart_lmdb2` above, this is a genuine, reportable gap, reported to
+Like `dart_lmdb2` above, this is a genuine, reportable gap — worth raising with
 [grammatek/dart_lmdb2](https://github.com/grammatek/dart_lmdb2) — this entry should be
 retired once fixed there.
